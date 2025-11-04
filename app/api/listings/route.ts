@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabase } from '@/lib/db';
-import { getCurrentUserId } from '@/lib/auth';
+import { supabase } from '../../../lib/db';
+import { getCurrentUserId } from '../../../lib/auth';
 
 export async function GET() {
   const { data, error } = await supabase
