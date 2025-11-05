@@ -13,17 +13,16 @@
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "@supabase/supabase-js": "latest"
+    "@supabase/supabase-js": "latest",
+    "openai": "latest"
   },
-"devDependencies": {
-  "typescript": "latest",
-  "@types/node": "latest",
-  "@types/react": "latest",
-  "tailwindcss": "latest",
-  "@tailwindcss/postcss": "latest",
-  "eslint": "latest",
-  "eslint-config-next": "latest"
-}
-
-
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@tailwindcss/postcss": "latest",
+    "tailwindcss": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest"
+  }
 }
