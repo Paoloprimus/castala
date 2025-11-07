@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; }
-body { @apply bg-white text-gray-900; }
-a { @apply text-blue-600; }
+:root { 
+  color-scheme: light; 
+}
+
+body { 
+  background-color: white;
+  color: rgb(17 24 39); /* gray-900 */
+}
+
+a { 
+  color: rgb(37 99 235); /* blue-600 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
