@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { supabase } from '../../../../../../lib/db';
+import { supabase } from '../../../../../lib/db';
 
 export async function GET(_: NextRequest, ctx: { params: { id: string } }) {
   const { id } = ctx.params;
